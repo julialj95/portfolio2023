@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -19,4 +20,67 @@
     --container-lg: 75%;
     --container-md: 86%;
     --container-sm: 90%;
+
+    --trans: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
+    color: var(--white-color);
+    background-image: url(./images/bg-texture.png);
+}
+
+.container {
+    width: var(--container-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.5rem;
+}
+section {
+    margin-top: 2rem;
+}
+
+section > h2, section > h5 {
+    color: var(--light-color);
+    text-align: center;
+}
+
+.light-text {
+    color: var(--light-color)
+}
+
+a {
+    color: var(--primary-color);
+    transition: var(--trans);
+}
+
+a:hover {
+    color: var(--white-color);
+};
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--primary-color);
+    padding: 8.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    transition: var(--trans);
+}
+
+.btn:hover {
+    background: var(--white-color);
+    color: var(--bg-color);
+    border-color: transparent;
 }
