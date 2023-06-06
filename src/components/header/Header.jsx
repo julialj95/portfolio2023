@@ -15,7 +15,7 @@ const Header = () => {
             <Social />
 
             <div>
-                <img src={headshot} alt="headshot"/>
+                <img src={headshot} alt="headshot" className='headshot'/>
             </div>
         </div>
     </header>

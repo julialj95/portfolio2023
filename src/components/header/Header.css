@@ -3,9 +3,19 @@ header {
     padding-top: 7rem;
     overflow: hidden;
 }
-.header_container {
+.header__container {
     text-align: center;
     height: 100%;
     position: relative;
-
 }
+.headshot {
+    background: var(--primary-color);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+    border-radius: 8rem 8rem 0 0;
+}
+
+
