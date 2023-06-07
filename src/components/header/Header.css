@@ -9,13 +9,15 @@ header {
     position: relative;
 }
 .headshot {
-    background: var(--primary-color);
+    background: linear-gradient(var(--primary-color), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 3rem;
-    border-radius: 8rem 8rem 0 0;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem;
 }
 
 

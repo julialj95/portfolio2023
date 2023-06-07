@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Subheader from '../subheader/Subheader';
-import headshot from '../../images/IMG-5070.jpg';
+import headshot from '../../images/Headshot2-removebg.png';
 import Social from '../Social/Social';
 
 const Header = () => {
