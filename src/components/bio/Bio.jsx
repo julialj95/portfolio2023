@@ -3,7 +3,7 @@ import './Bio.css';
 
 const Bio = () => {
   return (
-    <div>Bio</div>
+    <section id='about'>Bio</section>
   )
 }
 
