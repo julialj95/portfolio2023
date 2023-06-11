@@ -17,11 +17,10 @@
     --white-color: #fff;
     --light-color: rgba(255, 255, 255, .6);
 
-    --container-lg: 75%;
-    --container-md: 86%;
-    --container-sm: 90%;
-
     --trans: all 400ms ease;
+    --sm-container: 75%;
+    --md-container: 86%;
+    --lg-container: 90%;
 }
 
 html {
@@ -94,4 +93,24 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/* Responsive sizing */
+/*Medium screen */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--md-container);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+/*small screen */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--sm-container);
+    }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }

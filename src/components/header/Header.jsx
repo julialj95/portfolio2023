@@ -13,10 +13,10 @@ const Header = () => {
             <h5>Fullstack Developer</h5>   
             <Subheader />  
             <Social />
-
             <div>
                 <img src={headshot} alt="headshot" className='headshot'/>
             </div>
+            <a href='#contact' className="scroll">Scroll --</a>
         </div>
     </header>
   )

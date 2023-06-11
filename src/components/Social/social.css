@@ -7,3 +7,9 @@
     left: 0;
     bottom: 3rem;
 }
+.header_social::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--primary-color);
+}
